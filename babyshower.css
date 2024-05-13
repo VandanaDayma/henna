@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: syne;
+}
+
+body {
+    /* background: url(/mehndi4.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0, 0, 0, 0, 2);
+}
+
+nav{
+    padding: 340px;    
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+a{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+    /*  */
+position: relative;
+overflow: hidden;
+
+}
+
+a::after{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #DC143C;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+a:hover:after{
+  transform: scale(1);
+}
+
+a:hover{
+    color: #DC143C;
+}
+
+.dropdown {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown:hover{
+    color: #DC143C;
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.bridal{
+    height: 1500px;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+  
+  .bridal h1{
+    color: #E83322;
+    margin-left: 400px;
+  }
+  
+  .bridal-one{
+    height: 32%;
+    width: 100%;
+    /* justify-content: center; */
+    display: flex;
+    margin-left: 120px;
+  }
+  
+  .bridal-one img{
+    padding: 120px 10px; 
+  }
+  
+  .bridal-two{
+    height: 32%;
+    width: 100%;
+    /* justify-content: center; */
+    display: flex;
+    margin-left: 120px;
+  }
+  
+  .bridal-two img{
+    padding: 110px 10px;
+  }
+  
+  .bridal-three{
+    height: 32%;
+    width: 100%;
+    /* justify-content: center; */
+    display: flex;
+    margin-left: 120px;
+  }
+  
+  .bridal-three img{
+    padding: 90px 10px;
+  }
+
+ h2{
+    color: #E83322;
+    margin-left: 480px;
+}
+
+  p{
+   margin: 40px;
+  }
+
+  #contact-us{
+    height: 700px;
+    width: 100%;
+    background-color: #111111;
+  }
+
+  #contact-us p{
+    color: white;
+  }
+
+  .icon{
+    justify-content: space-between;
+    height: 190px;
+    display: flex;
+    padding: 60px;
+  }
+
+  hr{
+    width: 90%;
+    margin-left: 47px;
+  }
+  
+  .icon img{
+    height: 190px;
+  }
+  
+  .icon-one{
+    text-align: center;
+    padding: 50px;
+    line-height: 25px;
+  }
+  
+  .icon-two{
+    text-align: center;
+    padding: 50px;
+    line-height: 25px;
+  }
+  
+  .icon-three{
+    text-align: center;
+    padding: 50px;
+    line-height: 25px;
+  }
+
+  .extra p{
+    color: white;
+  }
+
+ .rights{
+    display: flex;
+ }
+
+ 
+
+
+ @media only screen and (max-width:640px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+.bridal{
+    height: 400px;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+
+  
+.bridal h1{
+color: #E83322;
+margin-left: 50px;
+}
+
+.bridal-one{
+height: 32%;
+width: 70%;
+justify-content: center;
+display: flex;
+}
+
+.bridal-one img{
+padding: 25px 10px;
+}
+
+.bridal-two{
+height: 32%;
+width: 70%;
+justify-content: center;
+display: flex;
+}
+
+.bridal-two img{
+padding: 22px 10px;
+}
+
+.bridal-three{
+height: 32%;
+width: 100%;
+justify-content: center;
+display: flex;
+}
+
+.bridal-three img{
+padding: 15px 60px;
+}
+
+h2{
+color: #E83322;
+margin-left: 120px;
+}
+
+p{
+padding: 20px 25px;
+}
+
+#contact-us{
+height: 700px;
+width: 100%;
+background-color: #111111;
+}
+
+.icon{
+height: 145px;
+/* display: flex; */
+padding: 10px;
+}
+
+.icon img{
+height: 145px;
+}
+
+.icon-one{
+text-align: center;
+padding: 25px 1px;
+line-height: 15px;
+}
+
+.icon-two{
+text-align: center;
+padding: 5px 9px;
+line-height: 15px;
+}
+
+.icon-three{
+text-align: center;
+padding: 5px 9px;
+line-height: 15px;
+}
+
+#contact-us .icon p{
+color: white;
+}
+
+.extra{
+padding: 30px;
+}
+
+hr{
+width: 100%;
+margin-top: 1px;
+margin-bottom: 10px;
+}
+
+.extra p{
+color: white;
+}
+
+.rights{
+justify-content: space-between;
+display: flex;
+}
+ }
+
+
+
+
+
+ /* media query for mobile */
+
+
+
+@media only screen and (max-width: 480px) {    
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+  header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: rgba(0, 0, 0, 0, 2);
+}
+
+nav{
+    padding: 1rem;    
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0rem 1rem;
+}
+
+a{
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+position: relative;
+overflow: hidden;
+
+}
+
+a::after{
+  content: '';
+  display: block;
+  height: 0.1rem;
+  width: 100%;
+  background-color: #DC143C;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+a:hover:after{
+  transform: scale(1);
+}
+
+a:hover{
+    color: #DC143C;
+}
+
+.dropdown {
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown:hover{
+    color: #DC143C;
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    padding: 0rem 2rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+        
+
+
+
+  #contact-us{
+    height: 60rem;
+    width: 100%;
+    background-color: #111111;
+    flex-direction: column;
+  }
+  
+  .icon{
+    justify-content: space-between;
+    height: 40rem;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  
+  .icon img{
+    height: 16rem;
+  }
+  
+  .icon-one{
+    text-align: center;
+    padding: 2rem 1rem;
+    line-height: 2rem;
+  }
+  
+  .icon-two{
+    text-align: center;
+    padding: 2rem 1rem;
+    line-height: 2rem;
+  }
+  
+  .icon-three{
+    text-align: center;
+    padding: 2rem 1rem;
+    line-height: 1rem;
+  }
+  
+  #contact-us .icon p{
+    color: white;
+  }
+  
+  .extra{
+    margin-top: 9rem;
+  }
+  
+  hr{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .extra p{
+    color: white;
+  }
+  
+  .rights{
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .bridal{
+    height:  50rem;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+
+  
+.bridal h1{
+color: #E83322;
+margin-left: 2rem;
+}
+
+.bridal-one{
+height: 32%;
+width: 100%;
+justify-content: center;
+display: flex;
+}
+
+.bridal-one img{
+  height: 8rem;
+padding: 0rem, 0.1rem;
+}
+
+.bridal-two{
+height: 32%;
+width: 100%;
+justify-content: center;
+display: flex;
+}
+
+.bridal-two img{
+  height: 8rem;
+  padding: 0.2rem, 0.9rem;
+}
+
+.bridal-three{
+height: 32%;
+width: 100%;
+justify-content: center;
+display: flex;
+}
+
+.bridal-three img{
+  height: 15rem;
+  padding: 0.8rem 0.1rem;
+}
+
+h2{
+color: #E83322;
+margin-left: 4rem;
+}
+
+p{
+padding: 0.1rem 0.9rem;
+}
+
+#contact-us{
+height: 80rem;
+width: 100%;
+background-color: #111111;
+}
+
+#contact-us p{
+color: white;
+}
+
+.icon{
+justify-content: space-between;
+height: 28rem;
+display: flex;
+padding: 4rem 1rem ;
+}
+
+hr{
+width: 90%;
+margin-left: 1rem;
+}
+
+.icon img{
+height: 14rem;
+}
+
+.icon-one{
+text-align: center;
+padding: 0.1rem 0.1rem;
+line-height: 0.9rem;
+}
+
+.icon-two{
+text-align: center;
+padding: 0.1rem 0.1rem;
+line-height: 0.9rem;
+}
+
+.icon-three{
+text-align: center;
+padding: 0.1rem 0.1rem;
+line-height: 0.9rem;
+}
+
+.extra{
+  padding: 3rem 1rem;
+}
+
+.extra p{
+color: white;
+}
+
+.rights{
+justify-content: space-between;
+flex-direction: column;
+}
+}
